@@ -1,0 +1,158 @@
+#app {
+    font-family: Avenir, Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-align: center;
+    color: #2c3e50;
+    padding: 60px 70px 75px 70px;
+    
+    background-image: linear-gradient(rgb(224, 243, 244), rgb(121, 242, 149));
+    
+  } 
+  
+  .rounded{
+    border-radius:30px;
+    
+  padding: 10px;
+  box-shadow: 5px 10px 8px 10px #888888;
+  }
+  
+  
+  
+  .CreateUser{
+    background-color: lightblue;
+    border-radius: 40px;
+    box-shadow: 5px 10px 8px 10px #888888;
+    margin: 25px 50px 75px 100px;  
+    padding: 15px 50px 75px 50px;
+  
+  }
+  
+  .CreateEvent{
+    background-image: linear-gradient(rgb(245, 183, 233), rgb(251, 205, 240));
+    border-radius: 40px;
+    margin: 25px 50px 75px 100px;  
+    padding: 15px 50px 75px 50px;
+    box-shadow: 5px 10px 8px 10px #888888;
+    
+  
+  
+  }
+  
+  input, select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  .appDropDownsHalf {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  button[type=submit] {
+    width: 100%;
+    background-color: #232523;
+    color: white;
+    padding: 14px 14px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 13px;
+    cursor: pointer;
+  }
+  .smallbutton[type=submit] {
+    width: 20%;
+    background-color: #a5aba5;
+    color: rgb(37, 35, 35);
+    padding: 14px 14px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 13px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  
+  button[type=submit]:hover {
+    background-color: #eceef0;
+    color: rgb(37, 35, 35);
+
+    
+  }
+  
+  form {
+    border-radius: 25px;
+    background-color: #f2f2f2;
+    padding: 25px 70px 75px 70px;
+    margin:50px;
+  }
+  
+  .Login{
+    background-color: rgb(200, 209, 249);
+    border-radius: 40px;
+   
+    box-shadow: 5px 10px 8px 10px #888888;
+    margin: 25px 50px 75px 100px;  
+    padding: 15px 50px 75px 50px;
+  }
+  .UserPage{
+    background-color: rgb(243, 192, 126);
+    border-radius: 40px;
+    padding: 25px 120px 75px 120px;
+    background-image: linear-gradient(rgb(249, 215, 157), rgb(249, 247, 112));
+    box-shadow: 5px 10px 8px 10px #888888;
+    padding: 25px, 50px, 75px, 50px;
+  
+  }
+  .more_space{
+    padding: 5px 22px 5px 12px;
+  }
+  
+.table{
+  border: 1px solid #ddd;
+  border-radius: 15px;
+  background-color: white;
+  margin-left: auto;
+  margin-right: auto;
+  border: black;
+  border-color: black;
+  padding: 5px;
+  overflow-x:auto;
+
+}
+
+
+tr:hover {background-color: #ddd;}
+
+th {
+border-radius: 5px;
+padding: 12px 22px 12px 12px;
+text-align: left;
+background-color: #eccfe3;
+color: rgb(5, 5, 5);
+
+}
+
+button{
+  border-radius: 5px;
+  border: 1px;
+}
+
+.delete:hover {
+background-color: #f01414;
+
+}
+@media screen and (max-width:768px) {
+  #app{
+    width:100vw;
+  }
+}
